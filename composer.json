@@ -1,0 +1,14 @@
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.0",
+    "roave/security-advisories": "dev-master",
+    "php-amqplib/php-amqplib": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "janwalther\\RabbitmqRPC\\": "src/"
+    }
+  }
+}
